@@ -1,0 +1,49 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-wrap: wrap;
+}
+
+header
+{
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+#links
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#additional-info
+{
+    padding-right: 15px;
+}
+
+.body
+{
+    padding-top: 40px;
+    border: 1px solid black;
+}
+
+#main-title
+{   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#information
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: small;
+    padding-bottom: 60px;
+    overflow-wrap: break-word;
+}
