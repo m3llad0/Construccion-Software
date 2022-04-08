@@ -1,0 +1,8 @@
+.vscode/
+Library/
+Logs/
+ProjectSettings/
+UserSettings/
+Packages/
+Assembly-CSharp.csproje
+
