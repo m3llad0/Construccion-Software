@@ -1,7 +1,110 @@
-#container-1
+
+#border
 {
-    border:10px;
-    border-color: navy;
     
     
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+
+        
+}
+
+#bordr
+{
+    border-left-width: 5px;
+    border-left-style: double;
+    border-left-color: blue;
+
+    border-right-width: 5px;
+    border-right-style: dotted;
+    border-right-color: black;
+
+    border-top-width: 5px;
+    border-top-style: groove;
+    border-top-color: aqua;
+
+    border-bottom-width: 5px;
+    border-bottom-style: dashed;
+    border-bottom-color: crimson;
+}
+
+#brdr
+{
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+#background
+{
+    color:white;
+    background-image: url(../images/691USeo8.png);
+}
+
+#colr
+{
+    color:red;
+}
+
+#fnt
+{
+    font-size: medium;
+    font-variant: small-caps;
+    
+}
+
+#fnte
+{
+    font-family: sans-serif;
+}
+
+#foont
+{
+    font-style: italic;
+    font-weight:lighter;
+}
+
+#box
+{
+    width: 100px;
+    height: 100px;
+}
+
+#estilo
+{
+    list-style: square;
+}
+
+#margen
+{
+    margin: 50px;
+}
+#padd
+{
+    padding: 30px;
+}
+
+#flow
+{
+    width: 100px;
+    height: 100px;
+    overflow: scroll;
+}
+
+#deezplay
+{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#pos
+{
+    position: sticky;
+    left: 90px;
+}
+
+img
+{
+    filter: grayscale(1) blur(30px);
 }
