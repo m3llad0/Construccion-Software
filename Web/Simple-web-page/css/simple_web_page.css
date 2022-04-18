@@ -1,8 +1,13 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-wrap: wrap;
+    color: white;
 }
 
+body
+{
+    margin: 0px;
+}
 header
 {
     padding-left: 30px;
@@ -11,7 +16,7 @@ header
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
-    border: 1px solid black;
+    background-color: #25404b;
 
 }
 
@@ -27,10 +32,44 @@ header
     padding-right: 15px;
 }
 
-.body
+.middle
 {
     padding-top: 40px;
-    border: 1px solid black;
+    background-color: rgb(185, 125, 45);
+    
+}
+
+#newsletter
+{
+    display: flex;
+    flex-direction: row;
+    background-color: #25404b;
+    text-align: center;
+    justify-content: center;
+}
+
+.form
+{
+    padding-top: 17px;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+input[type = text]
+{
+    display: flex;
+    flex-direction: row;
+    color: gray;
+    padding-right: 10px;
+    margin-right: 5px;
+}
+input[type = submit]
+{
+    background-color: #a86a18;
+    border-style: none;
+    font-weight: 550;
 }
 
 #main-title
@@ -38,6 +77,8 @@ header
     flex-direction: row;
     justify-content: center;
 }
+
+
 #information
 {
     display: flex;
@@ -46,4 +87,29 @@ header
     font-size: small;
     padding-bottom: 60px;
     overflow-wrap: break-word;
+}
+
+.down-info
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+#format
+{
+    justify-content: space-between;
+}
+
+#imgs
+{
+    color: black;
+    
+}
+footer
+{   background-color: #25404b;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
