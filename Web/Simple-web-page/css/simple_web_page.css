@@ -1,7 +1,7 @@
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     flex-wrap: wrap;
-    color: white;
+    
 }
 
 body
@@ -17,6 +17,7 @@ header
     justify-content: space-between;
     text-align: center;
     background-color: #25404b;
+    color: white;
 
 }
 
@@ -30,12 +31,14 @@ header
 #additional-info
 {
     padding-right: 15px;
+    color: white;
 }
 
 .middle
 {
     padding-top: 40px;
     background-color: rgb(185, 125, 45);
+    color: white;
     
 }
 
@@ -46,6 +49,7 @@ header
     background-color: #25404b;
     text-align: center;
     justify-content: center;
+    color: white;
 }
 
 .form
@@ -56,6 +60,7 @@ header
     flex-direction: row;
     justify-content: center;
     text-align: center;
+    color: white;
 }
 input[type = text]
 {
@@ -64,12 +69,14 @@ input[type = text]
     color: gray;
     padding-right: 10px;
     margin-right: 5px;
+
 }
 input[type = submit]
 {
     background-color: #a86a18;
     border-style: none;
     font-weight: 550;
+    color: white;
 }
 
 #main-title
@@ -85,6 +92,8 @@ input[type = submit]
     flex-direction: row;
     justify-content: center;
     font-size: small;
+    padding-left: 300px;
+    padding-right: 300px;
     padding-bottom: 60px;
     overflow-wrap: break-word;
 }
@@ -94,21 +103,36 @@ input[type = submit]
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    padding-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 54px;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+}
+.text
+{
+    font-size: 10px;
+    padding-left: 50px;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
 }
 
-#format
+.txt
 {
-    justify-content: space-between;
+    font-size: 10px;
+    padding-right: 50px;
+    justify-content: flex-start;
+    overflow-wrap: break-word;
 }
 
 #imgs
 {
-    color: black;
-    
+    display: flex;
+    flex-direction: column;
+
 }
 footer
 {   background-color: #25404b;
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: center;
