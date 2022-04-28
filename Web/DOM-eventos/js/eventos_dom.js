@@ -85,7 +85,7 @@ function changeImage()
     let height = Math.floor(Math.random()* 1000)
 
     const image = document.getElementById("gato")
-    image.src = "../images/bicho-humilde.jpg/"  
+    image.src = "/images/bicho-humilde.jpg/"  
 
     image.setAttribute('width', width)
     image.setAttribute('height', height)
