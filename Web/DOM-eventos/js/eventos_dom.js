@@ -9,11 +9,14 @@ function mousePosition(event)
 }
 document.addEventListener('mousemove', mousePosition)
 
-function getFormvalue()
+document.addEventListener("submit", (event) =>
 {
-
-
-}
+    event.preventDefault()
+    const fname = document.getElementsByName('fname')
+    const lname = document.getElementsByName('lname')
+    const name = document.getElementById('name')
+    name.innerHTML = `${fname[0].value} ${lname[0].value}`
+})
 
 function insertRow()
 {
