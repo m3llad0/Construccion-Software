@@ -1,0 +1,45 @@
+body
+{
+    background-color: #2c3043;
+    font-family: sans-serif;
+    color: white;
+}
+
+.wrapper
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+}
+
+.box
+{
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.title
+{
+    background-color: #fc6057;
+    grid-column: span 3;
+    align-items: center;
+    text-align: center;
+}
+
+.list
+{
+    background-color: #fda061;
+    grid-column: span 2;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.elements
+{
+    background-color: #34daba;
+    grid-column: span 1;
+    text-align: center;
+}
+
